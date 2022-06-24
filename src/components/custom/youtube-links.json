@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_custom_youtube_links",
+  "info": {
+    "displayName": "Youtube Links",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
