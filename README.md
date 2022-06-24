@@ -60,7 +60,7 @@ Start Postgres
 Create database
 
 ```bash
-  CREATE DATABASE strapi;
+  CREATE DATABASE strapi4;
 ```
 
 Create user
@@ -72,7 +72,7 @@ Create user
 Grant database access to user
 
 ```bash
-  GRANT ALL PRIVILEGES ON DATABASE strapi TO strapi_user;
+  GRANT ALL PRIVILEGES ON DATABASE strapi4 TO strapi_user;
 ```
 
 ### Start Strapi
