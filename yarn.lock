@@ -9768,6 +9768,11 @@
   dependencies:
     "ci-info" "^3.1.1"
 
+"strapi-plugin-populate-deep@^0.1.2":
+  "integrity" "sha512-cYmK5g4QqrGAWjUzEnd6P1XcqeXFcu/2yk/lg3ClQDnp46vb9i03CT7tW2YHz9JSf8g371iq0JPholL1q7Q1CA=="
+  "resolved" "https://registry.npmjs.org/strapi-plugin-populate-deep/-/strapi-plugin-populate-deep-0.1.2.tgz"
+  "version" "0.1.2"
+
 "strapi-plugin-transformer@^2.0.2":
   "integrity" "sha512-mjOxbts44LMYaaao3Lc/0dsd+0Lpn122BiafFKmYeYb7vna3Oz7YEta4u/upZq34dGQx1BrYLcwMbPXn+G4E1g=="
   "resolved" "https://registry.npmjs.org/strapi-plugin-transformer/-/strapi-plugin-transformer-2.0.2.tgz"

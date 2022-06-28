@@ -4,19 +4,17 @@
   "info": {
     "singularName": "book",
     "pluralName": "books",
-    "displayName": "Book"
+    "displayName": "Book",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
-    },
-    "Desc": {
-      "type": "richtext"
     },
     "chapters": {
       "type": "relation",
@@ -25,8 +23,20 @@
       "mappedBy": "book"
     },
     "slug": {
-      "type": "uid",
-      "targetField": "Name"
+      "type": "uid"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "youtube": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.youtube-links"
+    },
+    "desc": {
+      "type": "text"
     }
   }
 }

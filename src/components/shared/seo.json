@@ -23,6 +23,11 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "metaSocial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta-social"
     }
   }
 }
