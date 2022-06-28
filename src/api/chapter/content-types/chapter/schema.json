@@ -90,6 +90,12 @@
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "book": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::book.book",
+      "inversedBy": "chapters"
     }
   }
 }
