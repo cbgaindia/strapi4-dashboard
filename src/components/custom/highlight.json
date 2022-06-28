@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_custom_highlights",
+  "info": {
+    "displayName": "highlight"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text",
+      "required": true,
+      "maxLength": 250
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
